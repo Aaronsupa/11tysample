@@ -1,0 +1,18 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ title | default : "My Blog" }}</title>
+        <link rel = "stylesheet" href = "/stylecss.css">
+    </head>
+
+    <body class = "centercont">
+        <main class = "container">
+            <div class = "title">
+                <h1>{{ title | default : "My Blog" }}</h1>
+            </div>
+            {{ content }}
+        </main>
+    </body>
+</html>

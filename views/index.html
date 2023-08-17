@@ -1,0 +1,24 @@
+---
+title: Cool Blog with 11ty
+layout: layout.html
+---
+<div class = "test">
+    <div class  = "posts">
+        {% for post in collections.post %}
+        <div class = "postcontent">
+            <h1>{{ post.data.title }}</h1>
+            <h2>{{ post.data.author }}</h2>
+            <p>{{ post.content }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+    <div class = "seccontent">
+        <div class="details">
+            <h1>About Us!</h1>
+            <p>kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. 
+                kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. 
+                kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. kdkwa uwiadn ownaoid naowidn iwona snioad. </p>
+        </div>
+    </div>
+</div>
